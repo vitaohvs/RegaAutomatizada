@@ -49,9 +49,57 @@ Toda a lógica de funcionamento do projeto foi desenvolvida através da ferramen
  • Válvula solenóide 12V
  
 # Interfaces, protocolos e módulos de comunicação.
-O projeto conta com uma interface amigável que foi desenvolvida usando a ferramenta Node-Red, que simplifica o desenvolvimento "ligando" de blocos de código para executas tarefas.
-<br/> 
-![Samira](circuito_eletronico.png)
+O projeto conta com uma interface amigável que foi desenvolvida usando a ferramenta Node-Red, que simplifica o desenvolvimento "ligando" blocos de código para executar tarefas.
+<br/>
+<br/>
+Fluxo desenvolvido no Node-Red.
+![Node-Red](node-red.png)
+<br/>
+<br/>
+Nós enumerados para seguir o passo-a-passo da criação.
+![Flow enumerados](flow-numerados.PNG)
+<br/>
+<br/>
+Nó responsável por receber o valor da umidade do solo vindo do Arduino. Pino A0.
+![Arduino Uno A0](1.PNG)
+<br/>
+<br/>
+Entrada do protocolo MQTT usando o broker público "broker.mqtt-dashboard.com".
+![MQTT-IN](2.PNG)
+<br/>
+<br/>
+Recebendo o valor da umidade através do MQTT.
+![MQTT-OUT](3.PNG)
+<br/>
+<br/>
+Recebendo o valor da umidade através do MQTT e mostrando a umidade atual na tela de Dashboard.
+![Gráfico](4.PNG)
+<br/>
+<br/>
+Recebendo o valor da umidade através do MQTT e mostrando o gráfico da umidade do solo em relação ao tempo (min).
+![Gráfico](5.PNG)
+<br/>
+<br/>
+Função javascript que recebe o valor da umidade através do MQTT e verifica se a umidade > 600.
+![Função de verificação de umidade](6.PNG)
+<br/>
+<br/>
+Válvula recebe o valor retornado pela função.
+![Válvula](7.PNG)
+<br/>
+<br/>
+Informativo mostra na tela de dashboard se a válvula está aberta ou fechada.
+![Informátivo](8.PNG)
+<br/>
+<br/>
+Dashboard de umidade do solo.
+![Dashboard](dashboard-umidade-solo.PNG)
+<br/>
+<br/>
+Resultados
+![Resultados](resultados.PNG)
+<br/>
+<br/>
 
 
 # Links
