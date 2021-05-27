@@ -122,7 +122,7 @@ Resultados
 <br/>
 <br/>
 <br/>
-O projeto está utiliza a comunicação do Arduino com o computador através do Firmata e MQTT.
+O projeto utiliza a comunicação do Arduino com o computador através do Firmata e MQTT.
 
 # Fluxograma e Diagrama eletrônico.
 <a href="https://github.com/vitaohvs/RegaAutomatizada/blob/b548cbff2040df70c092d8292049b8ec3a8453f0/fluxograma.png">Fluxograma</a>.
