@@ -19,16 +19,17 @@ Tudo começa no sensor de umidade que está submerso no solo do vaso da planta, 
 <br/>
 Este número é interpretado da seguinte maneira:
 <br/>
- • Quanto mais próximo de 0, mais umido o solo está.
+ • Quanto mais próximo de 0, mais úmido o solo está.
  <br/>
  • Quanto mais próximo de 1000, mais seco o solo está.
  <br/>
 No nosso caso, utilizamos a medida para identificação de solo seco quando umidade > 600.
 <br/>
 <br/>
-
+Quando o Arduino Uno receber esse valor da umidade, ele irá comparar se umidade > 600. Caso seja maior, ele sinalizará o módulo relé para que libere a corrente elétrica da fonte de 12V para a válvula solenóide, assim liberando o fluxo de água para o vaso. Caso contrário ele mantém a corrente elétrica fechada.
 
 # Software desenvolvido
+
 
 # Hardware utilizado
  • Arduino Uno
