@@ -1,8 +1,16 @@
 # RegaAutomatizada
-Projeto de rega automatizada - IOT Arduino UNO
+Marcos Dionísio Fernandes Pátria - 31954275
+Vitor Henrique Vieira da Silva - 31886574
 
 # Introdução do projeto
 
-<a href="https://github.com/vitaohvs/RegaAutomatizada/blob/9250b0e3e420df0672df20511278835730cef586/circuito_eletronico.png">Circuito eletrônico</a>
+# Uso e Funcionamento
 
-![Imagem 1]("https://github.com/vitaohvs/RegaAutomatizada/blob/main/circuito_eletronico.png")
+# Software desenvolvido
+
+# Hardware utilizado
+
+# Interfaces, protocolos e módulos de comunicação.
+
+#Links
+<a href="https://github.com/vitaohvs/RegaAutomatizada/blob/9250b0e3e420df0672df20511278835730cef586/circuito_eletronico.png">Circuito eletrônico</a>
