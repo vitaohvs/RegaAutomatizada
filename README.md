@@ -38,14 +38,23 @@ Toda a lógica de funcionamento do projeto foi desenvolvida através da ferramen
 
 # Hardware utilizado
  • Arduino Uno
+ <br/>
  • Cabo Micro USB
+ <br/>
  • Sensor de umidade do solo higrômetro
+ <br/>
  • 3 Jumpers Macho-Macho
+ <br/>
  • 5 Jumpers Fêmea-Fêmea
+ <br/>
  • 5 Jumpers Macho-Fêmea
+ <br/>
  • Módulo Relé 5V
+ <br/>
  • Fonte 12V
+ <br/>
  • Adaptador P4 Fêmea
+ <br/>
  • Válvula solenóide 12V
  
 # Interfaces, protocolos e módulos de comunicação.
