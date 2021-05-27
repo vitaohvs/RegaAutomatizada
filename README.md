@@ -85,6 +85,7 @@ Função javascript que recebe o valor da umidade através do MQTT e verifica se
 <br/>
 <br/>
 Válvula recebe o valor retornado pela função.
+<br/>
 ![Válvula](7.PNG)
 <br/>
 <br/>
