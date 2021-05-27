@@ -27,9 +27,14 @@ No nosso caso, utilizamos a medida para identificação de solo seco quando umid
 <br/>
 <br/>
 Quando o Arduino Uno receber esse valor da umidade, ele irá comparar se umidade > 600. Caso seja maior, ele sinalizará o módulo relé para que libere a corrente elétrica da fonte de 12V para a válvula solenóide, assim liberando o fluxo de água para o vaso. Caso contrário ele mantém a corrente elétrica fechada.
+<br/>
+<br/>
+Por fim, a umidade do solo também é enviada através do protocólo MQTT, onde por sua vez o usuário consegue visualizar no Node-Red um gráfico das mudanças da umidade do solo, a umidade atual e se a válvula solenóide está aberta ou fechada.
 
 # Software desenvolvido
-
+O código desenvolvido que foi gravado no Arduino é o <a href="https://github.com/vitaohvs/RegaAutomatizada/blob/ee63eff638df5301a409dd94641cb1dd563381e9/StandardFirmata.ino">StandardFirmata</a>. Utilizamos o código do Firmata sem nenhum tipo de edição.
+<br/>
+Toda a lógica de funcionamento do projeto foi desenvolvida através da ferramenta Node-Red, que está detalhado no tópico de Interfaces, protocolos e módulos de comunicação.
 
 # Hardware utilizado
  • Arduino Uno
@@ -44,6 +49,10 @@ Quando o Arduino Uno receber esse valor da umidade, ele irá comparar se umidade
  • Válvula solenóide 12V
  
 # Interfaces, protocolos e módulos de comunicação.
+O projeto conta com uma interface amigável que foi desenvolvida usando a ferramenta Node-Red, que simplifica o desenvolvimento "ligando" de blocos de código para executas tarefas.
+<br/> 
+![Samira](circuito_eletronico.png)
+
 
 # Links
 <a href="https://github.com/vitaohvs/RegaAutomatizada/blob/9250b0e3e420df0672df20511278835730cef586/circuito_eletronico.png">Circuito eletrônico</a>
