@@ -53,34 +53,42 @@ O projeto conta com uma interface amigável que foi desenvolvida usando a ferram
 <br/>
 <br/>
 Fluxo desenvolvido no Node-Red.
+<br/>
 ![Node-Red](node-red.png)
 <br/>
 <br/>
 Nós enumerados para seguir o passo-a-passo da criação.
+<br/>
 ![Flow enumerados](flow-numerados.PNG)
 <br/>
 <br/>
 Nó responsável por receber o valor da umidade do solo vindo do Arduino. Pino A0.
+<br/>
 ![Arduino Uno A0](1.PNG)
 <br/>
 <br/>
 Entrada do protocolo MQTT usando o broker público "broker.mqtt-dashboard.com".
+<br/>
 ![MQTT-IN](2.PNG)
 <br/>
 <br/>
 Recebendo o valor da umidade através do MQTT.
+<br/>
 ![MQTT-OUT](3.PNG)
 <br/>
 <br/>
 Recebendo o valor da umidade através do MQTT e mostrando a umidade atual na tela de Dashboard.
+<br/>
 ![Gráfico](4.PNG)
 <br/>
 <br/>
 Recebendo o valor da umidade através do MQTT e mostrando o gráfico da umidade do solo em relação ao tempo (min).
+<br/>
 ![Gráfico](5.PNG)
 <br/>
 <br/>
 Função javascript que recebe o valor da umidade através do MQTT e verifica se a umidade > 600.
+<br/>
 ![Função de verificação de umidade](6.PNG)
 <br/>
 <br/>
@@ -90,14 +98,17 @@ Válvula recebe o valor retornado pela função.
 <br/>
 <br/>
 Informativo mostra na tela de dashboard se a válvula está aberta ou fechada.
+<br/>
 ![Informátivo](8.PNG)
 <br/>
 <br/>
 Dashboard de umidade do solo.
+<br/>
 ![Dashboard](dashboard-umidade-solo.PNG)
 <br/>
 <br/>
 Resultados
+<br/>
 ![Resultados](resultados.PNG)
 <br/>
 <br/>
