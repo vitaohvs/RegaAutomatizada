@@ -1,5 +1,5 @@
 # RegaAutomatizada
-Marcos Dionísio Fernandes Pátria - 31954275\n
+Marcos Dionísio Fernandes Pátria - 31954275/n
 Vitor Henrique Vieira da Silva - 31886574
 
 # Introdução do projeto
