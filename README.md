@@ -32,7 +32,7 @@ Quando o Arduino Uno receber esse valor da umidade, ele irá comparar se umidade
 Por fim, a umidade do solo também é enviada através do protocólo MQTT, onde por sua vez o usuário consegue visualizar no Node-Red um gráfico das mudanças da umidade do solo, a umidade atual e se a válvula solenóide está aberta ou fechada.
 
 Para melhor entendimento, assista o vídeo prático disponível no
-<a href="https://github.com/vitaohvs/RegaAutomatizada/blob/9250b0e3e420df0672df20511278835730cef586/circuito_eletronico.png">YouTube</a>.
+<a href="https://www.youtube.com/watch?v=ZRKDpgJ3kLU">YouTube</a>.
 
 # Software desenvolvido
 O código desenvolvido que foi gravado no Arduino é o <a href="https://github.com/vitaohvs/RegaAutomatizada/blob/ee63eff638df5301a409dd94641cb1dd563381e9/StandardFirmata.ino">StandardFirmata</a>. Utilizamos o código do Firmata sem nenhum tipo de edição.
